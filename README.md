@@ -125,6 +125,7 @@ Class | Method | HTTP request | Description
 *CredentialApi* | [**revoke**](docs/CredentialApi.md#revoke) | **PUT** /credential/revoke | 
 *RecommendApi* | [**authorize**](docs/RecommendApi.md#authorize) | **POST** /recommend/authorize | 
 *RecommendApi* | [**get_recommend_jobs**](docs/RecommendApi.md#get_recommend_jobs) | **GET** /recommend/job/{uniqueId} | 
+*RedirectApi* | [**get_token**](docs/RedirectApi.md#get_token) | **GET** /redirect/token | 
 
 ## Documentation For Models
 
@@ -147,6 +148,7 @@ Class | Method | HTTP request | Description
  - [OrderState](docs/OrderState.md)
  - [Project](docs/Project.md)
  - [RangeDouble](docs/RangeDouble.md)
+ - [RedirectToken](docs/RedirectToken.md)
  - [User](docs/User.md)
 
 ## Documentation For Authorization

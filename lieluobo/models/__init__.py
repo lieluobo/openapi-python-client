@@ -33,4 +33,5 @@ from lieluobo.models.job import Job
 from lieluobo.models.order_state import OrderState
 from lieluobo.models.project import Project
 from lieluobo.models.range_double import RangeDouble
+from lieluobo.models.redirect_token import RedirectToken
 from lieluobo.models.user import User

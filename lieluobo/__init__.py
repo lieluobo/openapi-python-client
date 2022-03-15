@@ -18,6 +18,7 @@ from __future__ import absolute_import
 from lieluobo.api.bind_api import BindApi
 from lieluobo.api.credential_api import CredentialApi
 from lieluobo.api.recommend_api import RecommendApi
+from lieluobo.api.redirect_api import RedirectApi
 # import ApiClient
 from lieluobo.api_client import ApiClient
 from lieluobo.configuration import Configuration
@@ -41,4 +42,5 @@ from lieluobo.models.job import Job
 from lieluobo.models.order_state import OrderState
 from lieluobo.models.project import Project
 from lieluobo.models.range_double import RangeDouble
+from lieluobo.models.redirect_token import RedirectToken
 from lieluobo.models.user import User

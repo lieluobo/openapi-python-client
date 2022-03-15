@@ -130,7 +130,7 @@ class RecommendApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param str unique_id: (required)
+        :param str unique_id: 候选人唯一ID (required)
         :return: list[Job]
                  If the method is called asynchronously,
                  returns the request thread.
@@ -151,7 +151,7 @@ class RecommendApi(object):
         >>> result = thread.get()
 
         :param async_req bool
-        :param str unique_id: (required)
+        :param str unique_id: 候选人唯一ID (required)
         :return: list[Job]
                  If the method is called asynchronously,
                  returns the request thread.

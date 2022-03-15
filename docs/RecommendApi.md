@@ -76,7 +76,7 @@ configuration.authenticate = ApiKeyAuthenticator(YOUR_SECRET_ID, YOUR_SECRET_KEY
 
 # create an instance of the API class
 api_instance = lieluobo.RecommendApi(lieluobo.ApiClient(configuration))
-unique_id = 'unique_id_example' # str | 
+unique_id = 'unique_id_example' # str | 候选人唯一ID
 
 try:
     api_response = api_instance.get_recommend_jobs(unique_id)
@@ -89,7 +89,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **unique_id** | **str**|  | 
+ **unique_id** | **str**| 候选人唯一ID | 
 
 ### Return type
 

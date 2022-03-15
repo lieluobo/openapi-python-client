@@ -40,7 +40,8 @@ class Job(object):
         'brokerage': 'float',
         'warranty': 'str',
         'created_at': 'datetime',
-        'updated_at': 'datetime'
+        'updated_at': 'datetime',
+        'url': 'str'
     }
 
     attribute_map = {
@@ -56,10 +57,11 @@ class Job(object):
         'brokerage': 'brokerage',
         'warranty': 'warranty',
         'created_at': 'createdAt',
-        'updated_at': 'updatedAt'
+        'updated_at': 'updatedAt',
+        'url': 'url'
     }
 
-    def __init__(self, id=None, title=None, title_extend=None, salary=None, address=None, required_degree=None, headcount=None, grade=None, fast_pay=None, brokerage=None, warranty=None, created_at=None, updated_at=None):  # noqa: E501
+    def __init__(self, id=None, title=None, title_extend=None, salary=None, address=None, required_degree=None, headcount=None, grade=None, fast_pay=None, brokerage=None, warranty=None, created_at=None, updated_at=None, url=None):  # noqa: E501
         """Job - a model defined in Swagger"""  # noqa: E501
         self._id = None
         self._title = None
@@ -74,6 +76,7 @@ class Job(object):
         self._warranty = None
         self._created_at = None
         self._updated_at = None
+        self._url = None
         self.discriminator = None
         if id is not None:
             self.id = id
@@ -101,6 +104,8 @@ class Job(object):
             self.created_at = created_at
         if updated_at is not None:
             self.updated_at = updated_at
+        if url is not None:
+            self.url = url
 
     @property
     def id(self):
@@ -374,6 +379,27 @@ class Job(object):
         """
 
         self._updated_at = updated_at
+
+    @property
+    def url(self):
+        """Gets the url of this Job.  # noqa: E501
+
+
+        :return: The url of this Job.  # noqa: E501
+        :rtype: str
+        """
+        return self._url
+
+    @url.setter
+    def url(self, url):
+        """Sets the url of this Job.
+
+
+        :param url: The url of this Job.  # noqa: E501
+        :type: str
+        """
+
+        self._url = url
 
     def to_dict(self):
         """Returns the model properties as a dict"""
