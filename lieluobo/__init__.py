@@ -24,6 +24,7 @@ from lieluobo.api.redirect_api import RedirectApi
 from lieluobo.api_client import ApiClient
 from lieluobo.configuration import Configuration
 # import models into sdk package
+from lieluobo.models.all_of_candidate_gender import AllOfCandidateGender
 from lieluobo.models.all_of_company_order_state import AllOfCompanyOrderState
 from lieluobo.models.all_of_company_state import AllOfCompanyState
 from lieluobo.models.all_of_education_degree import AllOfEducationDegree

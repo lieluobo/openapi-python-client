@@ -66,6 +66,7 @@ class Credential(object):
     def secret_id(self):
         """Gets the secret_id of this Credential.  # noqa: E501
 
+        密钥ID  # noqa: E501
 
         :return: The secret_id of this Credential.  # noqa: E501
         :rtype: str
@@ -76,6 +77,7 @@ class Credential(object):
     def secret_id(self, secret_id):
         """Sets the secret_id of this Credential.
 
+        密钥ID  # noqa: E501
 
         :param secret_id: The secret_id of this Credential.  # noqa: E501
         :type: str
@@ -87,6 +89,7 @@ class Credential(object):
     def secret_key(self):
         """Gets the secret_key of this Credential.  # noqa: E501
 
+        访问密钥  # noqa: E501
 
         :return: The secret_key of this Credential.  # noqa: E501
         :rtype: str
@@ -97,6 +100,7 @@ class Credential(object):
     def secret_key(self, secret_key):
         """Sets the secret_key of this Credential.
 
+        访问密钥  # noqa: E501
 
         :param secret_key: The secret_key of this Credential.  # noqa: E501
         :type: str
@@ -108,6 +112,7 @@ class Credential(object):
     def expired_at(self):
         """Gets the expired_at of this Credential.  # noqa: E501
 
+        过期时间：为空表示永不过期  # noqa: E501
 
         :return: The expired_at of this Credential.  # noqa: E501
         :rtype: datetime
@@ -118,6 +123,7 @@ class Credential(object):
     def expired_at(self, expired_at):
         """Sets the expired_at of this Credential.
 
+        过期时间：为空表示永不过期  # noqa: E501
 
         :param expired_at: The expired_at of this Credential.  # noqa: E501
         :type: datetime
@@ -129,6 +135,7 @@ class Credential(object):
     def revoked_at(self):
         """Gets the revoked_at of this Credential.  # noqa: E501
 
+        吊销时间  # noqa: E501
 
         :return: The revoked_at of this Credential.  # noqa: E501
         :rtype: datetime
@@ -139,6 +146,7 @@ class Credential(object):
     def revoked_at(self, revoked_at):
         """Sets the revoked_at of this Credential.
 
+        吊销时间  # noqa: E501
 
         :param revoked_at: The revoked_at of this Credential.  # noqa: E501
         :type: datetime
@@ -150,6 +158,7 @@ class Credential(object):
     def revoked(self):
         """Gets the revoked of this Credential.  # noqa: E501
 
+        是否已吊销  # noqa: E501
 
         :return: The revoked of this Credential.  # noqa: E501
         :rtype: bool
@@ -160,6 +169,7 @@ class Credential(object):
     def revoked(self, revoked):
         """Sets the revoked of this Credential.
 
+        是否已吊销  # noqa: E501
 
         :param revoked: The revoked of this Credential.  # noqa: E501
         :type: bool

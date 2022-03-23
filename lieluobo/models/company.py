@@ -77,6 +77,7 @@ class Company(object):
     def unique_id(self):
         """Gets the unique_id of this Company.  # noqa: E501
 
+        用于标识第三方系统公司的唯一ID，不可重复  # noqa: E501
 
         :return: The unique_id of this Company.  # noqa: E501
         :rtype: str
@@ -87,6 +88,7 @@ class Company(object):
     def unique_id(self, unique_id):
         """Sets the unique_id of this Company.
 
+        用于标识第三方系统公司的唯一ID，不可重复  # noqa: E501
 
         :param unique_id: The unique_id of this Company.  # noqa: E501
         :type: str
@@ -100,6 +102,7 @@ class Company(object):
     def name(self):
         """Gets the name of this Company.  # noqa: E501
 
+        公司名  # noqa: E501
 
         :return: The name of this Company.  # noqa: E501
         :rtype: str
@@ -110,6 +113,7 @@ class Company(object):
     def name(self, name):
         """Sets the name of this Company.
 
+        公司名  # noqa: E501
 
         :param name: The name of this Company.  # noqa: E501
         :type: str
@@ -123,6 +127,7 @@ class Company(object):
     def license_no(self):
         """Gets the license_no of this Company.  # noqa: E501
 
+        统一社会信用编码  # noqa: E501
 
         :return: The license_no of this Company.  # noqa: E501
         :rtype: str
@@ -133,6 +138,7 @@ class Company(object):
     def license_no(self, license_no):
         """Sets the license_no of this Company.
 
+        统一社会信用编码  # noqa: E501
 
         :param license_no: The license_no of this Company.  # noqa: E501
         :type: str
@@ -144,6 +150,7 @@ class Company(object):
     def contact_name(self):
         """Gets the contact_name of this Company.  # noqa: E501
 
+        联系人姓名  # noqa: E501
 
         :return: The contact_name of this Company.  # noqa: E501
         :rtype: str
@@ -154,6 +161,7 @@ class Company(object):
     def contact_name(self, contact_name):
         """Sets the contact_name of this Company.
 
+        联系人姓名  # noqa: E501
 
         :param contact_name: The contact_name of this Company.  # noqa: E501
         :type: str
@@ -167,6 +175,7 @@ class Company(object):
     def contact_mobile(self):
         """Gets the contact_mobile of this Company.  # noqa: E501
 
+        联系人电话  # noqa: E501
 
         :return: The contact_mobile of this Company.  # noqa: E501
         :rtype: str
@@ -177,6 +186,7 @@ class Company(object):
     def contact_mobile(self, contact_mobile):
         """Sets the contact_mobile of this Company.
 
+        联系人电话  # noqa: E501
 
         :param contact_mobile: The contact_mobile of this Company.  # noqa: E501
         :type: str
@@ -190,6 +200,7 @@ class Company(object):
     def notify_url(self):
         """Gets the notify_url of this Company.  # noqa: E501
 
+        回调地址  # noqa: E501
 
         :return: The notify_url of this Company.  # noqa: E501
         :rtype: str
@@ -200,6 +211,7 @@ class Company(object):
     def notify_url(self, notify_url):
         """Sets the notify_url of this Company.
 
+        回调地址  # noqa: E501
 
         :param notify_url: The notify_url of this Company.  # noqa: E501
         :type: str

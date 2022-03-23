@@ -65,6 +65,7 @@ class Education(object):
     def school(self):
         """Gets the school of this Education.  # noqa: E501
 
+        学校名称  # noqa: E501
 
         :return: The school of this Education.  # noqa: E501
         :rtype: str
@@ -75,6 +76,7 @@ class Education(object):
     def school(self, school):
         """Sets the school of this Education.
 
+        学校名称  # noqa: E501
 
         :param school: The school of this Education.  # noqa: E501
         :type: str
@@ -88,6 +90,7 @@ class Education(object):
     def major(self):
         """Gets the major of this Education.  # noqa: E501
 
+        专业名称  # noqa: E501
 
         :return: The major of this Education.  # noqa: E501
         :rtype: str
@@ -98,6 +101,7 @@ class Education(object):
     def major(self, major):
         """Sets the major of this Education.
 
+        专业名称  # noqa: E501
 
         :param major: The major of this Education.  # noqa: E501
         :type: str
@@ -130,6 +134,7 @@ class Education(object):
     def started_at(self):
         """Gets the started_at of this Education.  # noqa: E501
 
+        入学日期  # noqa: E501
 
         :return: The started_at of this Education.  # noqa: E501
         :rtype: date
@@ -140,6 +145,7 @@ class Education(object):
     def started_at(self, started_at):
         """Sets the started_at of this Education.
 
+        入学日期  # noqa: E501
 
         :param started_at: The started_at of this Education.  # noqa: E501
         :type: date
@@ -151,6 +157,7 @@ class Education(object):
     def ended_at(self):
         """Gets the ended_at of this Education.  # noqa: E501
 
+        毕业日期  # noqa: E501
 
         :return: The ended_at of this Education.  # noqa: E501
         :rtype: date
@@ -161,6 +168,7 @@ class Education(object):
     def ended_at(self, ended_at):
         """Sets the ended_at of this Education.
 
+        毕业日期  # noqa: E501
 
         :param ended_at: The ended_at of this Education.  # noqa: E501
         :type: date

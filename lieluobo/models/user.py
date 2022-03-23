@@ -64,6 +64,7 @@ class User(object):
     def mobile(self):
         """Gets the mobile of this User.  # noqa: E501
 
+        手机号，需要保证唯一  # noqa: E501
 
         :return: The mobile of this User.  # noqa: E501
         :rtype: str
@@ -74,6 +75,7 @@ class User(object):
     def mobile(self, mobile):
         """Sets the mobile of this User.
 
+        手机号，需要保证唯一  # noqa: E501
 
         :param mobile: The mobile of this User.  # noqa: E501
         :type: str
@@ -87,6 +89,7 @@ class User(object):
     def name(self):
         """Gets the name of this User.  # noqa: E501
 
+        姓名  # noqa: E501
 
         :return: The name of this User.  # noqa: E501
         :rtype: str
@@ -97,6 +100,7 @@ class User(object):
     def name(self, name):
         """Sets the name of this User.
 
+        姓名  # noqa: E501
 
         :param name: The name of this User.  # noqa: E501
         :type: str
@@ -108,6 +112,7 @@ class User(object):
     def company_id(self):
         """Gets the company_id of this User.  # noqa: E501
 
+        公司唯一ID  # noqa: E501
 
         :return: The company_id of this User.  # noqa: E501
         :rtype: str
@@ -118,6 +123,7 @@ class User(object):
     def company_id(self, company_id):
         """Sets the company_id of this User.
 
+        公司唯一ID  # noqa: E501
 
         :param company_id: The company_id of this User.  # noqa: E501
         :type: str
@@ -152,6 +158,7 @@ class User(object):
     def notify_url(self):
         """Gets the notify_url of this User.  # noqa: E501
 
+        回调地址  # noqa: E501
 
         :return: The notify_url of this User.  # noqa: E501
         :rtype: str
@@ -162,6 +169,7 @@ class User(object):
     def notify_url(self, notify_url):
         """Sets the notify_url of this User.
 
+        回调地址  # noqa: E501
 
         :param notify_url: The notify_url of this User.  # noqa: E501
         :type: str

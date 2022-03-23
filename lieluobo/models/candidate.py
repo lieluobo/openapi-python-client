@@ -30,7 +30,7 @@ class Candidate(object):
     swagger_types = {
         'unique_id': 'str',
         'name': 'str',
-        'gender': 'Gender',
+        'gender': 'AllOfCandidateGender',
         'age': 'int',
         'mobile': 'str',
         'email': 'str',
@@ -135,6 +135,7 @@ class Candidate(object):
     def unique_id(self):
         """Gets the unique_id of this Candidate.  # noqa: E501
 
+        用于标识第三方系统候选人的唯一ID，不可重复  # noqa: E501
 
         :return: The unique_id of this Candidate.  # noqa: E501
         :rtype: str
@@ -145,6 +146,7 @@ class Candidate(object):
     def unique_id(self, unique_id):
         """Sets the unique_id of this Candidate.
 
+        用于标识第三方系统候选人的唯一ID，不可重复  # noqa: E501
 
         :param unique_id: The unique_id of this Candidate.  # noqa: E501
         :type: str
@@ -158,6 +160,7 @@ class Candidate(object):
     def name(self):
         """Gets the name of this Candidate.  # noqa: E501
 
+        姓名  # noqa: E501
 
         :return: The name of this Candidate.  # noqa: E501
         :rtype: str
@@ -168,6 +171,7 @@ class Candidate(object):
     def name(self, name):
         """Sets the name of this Candidate.
 
+        姓名  # noqa: E501
 
         :param name: The name of this Candidate.  # noqa: E501
         :type: str
@@ -181,7 +185,7 @@ class Candidate(object):
 
 
         :return: The gender of this Candidate.  # noqa: E501
-        :rtype: Gender
+        :rtype: AllOfCandidateGender
         """
         return self._gender
 
@@ -191,7 +195,7 @@ class Candidate(object):
 
 
         :param gender: The gender of this Candidate.  # noqa: E501
-        :type: Gender
+        :type: AllOfCandidateGender
         """
 
         self._gender = gender
@@ -200,6 +204,7 @@ class Candidate(object):
     def age(self):
         """Gets the age of this Candidate.  # noqa: E501
 
+        年龄  # noqa: E501
 
         :return: The age of this Candidate.  # noqa: E501
         :rtype: int
@@ -210,6 +215,7 @@ class Candidate(object):
     def age(self, age):
         """Sets the age of this Candidate.
 
+        年龄  # noqa: E501
 
         :param age: The age of this Candidate.  # noqa: E501
         :type: int
@@ -221,6 +227,7 @@ class Candidate(object):
     def mobile(self):
         """Gets the mobile of this Candidate.  # noqa: E501
 
+        手机号  # noqa: E501
 
         :return: The mobile of this Candidate.  # noqa: E501
         :rtype: str
@@ -231,6 +238,7 @@ class Candidate(object):
     def mobile(self, mobile):
         """Sets the mobile of this Candidate.
 
+        手机号  # noqa: E501
 
         :param mobile: The mobile of this Candidate.  # noqa: E501
         :type: str
@@ -242,6 +250,7 @@ class Candidate(object):
     def email(self):
         """Gets the email of this Candidate.  # noqa: E501
 
+        邮箱  # noqa: E501
 
         :return: The email of this Candidate.  # noqa: E501
         :rtype: str
@@ -252,6 +261,7 @@ class Candidate(object):
     def email(self, email):
         """Sets the email of this Candidate.
 
+        邮箱  # noqa: E501
 
         :param email: The email of this Candidate.  # noqa: E501
         :type: str
@@ -263,6 +273,7 @@ class Candidate(object):
     def birthday(self):
         """Gets the birthday of this Candidate.  # noqa: E501
 
+        出生年月  # noqa: E501
 
         :return: The birthday of this Candidate.  # noqa: E501
         :rtype: date
@@ -273,6 +284,7 @@ class Candidate(object):
     def birthday(self, birthday):
         """Sets the birthday of this Candidate.
 
+        出生年月  # noqa: E501
 
         :param birthday: The birthday of this Candidate.  # noqa: E501
         :type: date
@@ -284,6 +296,7 @@ class Candidate(object):
     def salary(self):
         """Gets the salary of this Candidate.  # noqa: E501
 
+        当前年薪  # noqa: E501
 
         :return: The salary of this Candidate.  # noqa: E501
         :rtype: float
@@ -294,6 +307,7 @@ class Candidate(object):
     def salary(self, salary):
         """Sets the salary of this Candidate.
 
+        当前年薪  # noqa: E501
 
         :param salary: The salary of this Candidate.  # noqa: E501
         :type: float
@@ -305,6 +319,7 @@ class Candidate(object):
     def introduce(self):
         """Gets the introduce of this Candidate.  # noqa: E501
 
+        个人简介  # noqa: E501
 
         :return: The introduce of this Candidate.  # noqa: E501
         :rtype: str
@@ -315,6 +330,7 @@ class Candidate(object):
     def introduce(self, introduce):
         """Sets the introduce of this Candidate.
 
+        个人简介  # noqa: E501
 
         :param introduce: The introduce of this Candidate.  # noqa: E501
         :type: str
@@ -326,6 +342,7 @@ class Candidate(object):
     def location(self):
         """Gets the location of this Candidate.  # noqa: E501
 
+        所在城市  # noqa: E501
 
         :return: The location of this Candidate.  # noqa: E501
         :rtype: str
@@ -336,6 +353,7 @@ class Candidate(object):
     def location(self, location):
         """Sets the location of this Candidate.
 
+        所在城市  # noqa: E501
 
         :param location: The location of this Candidate.  # noqa: E501
         :type: str
@@ -347,6 +365,7 @@ class Candidate(object):
     def languages(self):
         """Gets the languages of this Candidate.  # noqa: E501
 
+        语言  # noqa: E501
 
         :return: The languages of this Candidate.  # noqa: E501
         :rtype: list[str]
@@ -357,6 +376,7 @@ class Candidate(object):
     def languages(self, languages):
         """Sets the languages of this Candidate.
 
+        语言  # noqa: E501
 
         :param languages: The languages of this Candidate.  # noqa: E501
         :type: list[str]
@@ -368,6 +388,7 @@ class Candidate(object):
     def skills(self):
         """Gets the skills of this Candidate.  # noqa: E501
 
+        技能  # noqa: E501
 
         :return: The skills of this Candidate.  # noqa: E501
         :rtype: list[str]
@@ -378,6 +399,7 @@ class Candidate(object):
     def skills(self, skills):
         """Sets the skills of this Candidate.
 
+        技能  # noqa: E501
 
         :param skills: The skills of this Candidate.  # noqa: E501
         :type: list[str]
@@ -389,6 +411,7 @@ class Candidate(object):
     def intended_industries(self):
         """Gets the intended_industries of this Candidate.  # noqa: E501
 
+        意向行业  # noqa: E501
 
         :return: The intended_industries of this Candidate.  # noqa: E501
         :rtype: list[str]
@@ -399,6 +422,7 @@ class Candidate(object):
     def intended_industries(self, intended_industries):
         """Sets the intended_industries of this Candidate.
 
+        意向行业  # noqa: E501
 
         :param intended_industries: The intended_industries of this Candidate.  # noqa: E501
         :type: list[str]
@@ -410,6 +434,7 @@ class Candidate(object):
     def intended_positions(self):
         """Gets the intended_positions of this Candidate.  # noqa: E501
 
+        意向职位  # noqa: E501
 
         :return: The intended_positions of this Candidate.  # noqa: E501
         :rtype: list[str]
@@ -420,6 +445,7 @@ class Candidate(object):
     def intended_positions(self, intended_positions):
         """Sets the intended_positions of this Candidate.
 
+        意向职位  # noqa: E501
 
         :param intended_positions: The intended_positions of this Candidate.  # noqa: E501
         :type: list[str]
@@ -431,6 +457,7 @@ class Candidate(object):
     def intended_locations(self):
         """Gets the intended_locations of this Candidate.  # noqa: E501
 
+        意向城市  # noqa: E501
 
         :return: The intended_locations of this Candidate.  # noqa: E501
         :rtype: list[str]
@@ -441,6 +468,7 @@ class Candidate(object):
     def intended_locations(self, intended_locations):
         """Sets the intended_locations of this Candidate.
 
+        意向城市  # noqa: E501
 
         :param intended_locations: The intended_locations of this Candidate.  # noqa: E501
         :type: list[str]
@@ -452,6 +480,7 @@ class Candidate(object):
     def experiences(self):
         """Gets the experiences of this Candidate.  # noqa: E501
 
+        工作经验  # noqa: E501
 
         :return: The experiences of this Candidate.  # noqa: E501
         :rtype: list[Experience]
@@ -462,6 +491,7 @@ class Candidate(object):
     def experiences(self, experiences):
         """Sets the experiences of this Candidate.
 
+        工作经验  # noqa: E501
 
         :param experiences: The experiences of this Candidate.  # noqa: E501
         :type: list[Experience]
@@ -473,6 +503,7 @@ class Candidate(object):
     def educations(self):
         """Gets the educations of this Candidate.  # noqa: E501
 
+        教育经历  # noqa: E501
 
         :return: The educations of this Candidate.  # noqa: E501
         :rtype: list[Education]
@@ -483,6 +514,7 @@ class Candidate(object):
     def educations(self, educations):
         """Sets the educations of this Candidate.
 
+        教育经历  # noqa: E501
 
         :param educations: The educations of this Candidate.  # noqa: E501
         :type: list[Education]
@@ -494,6 +526,7 @@ class Candidate(object):
     def projects(self):
         """Gets the projects of this Candidate.  # noqa: E501
 
+        项目经历  # noqa: E501
 
         :return: The projects of this Candidate.  # noqa: E501
         :rtype: list[Project]
@@ -504,6 +537,7 @@ class Candidate(object):
     def projects(self, projects):
         """Sets the projects of this Candidate.
 
+        项目经历  # noqa: E501
 
         :param projects: The projects of this Candidate.  # noqa: E501
         :type: list[Project]
@@ -515,6 +549,7 @@ class Candidate(object):
     def notify_url(self):
         """Gets the notify_url of this Candidate.  # noqa: E501
 
+        回调地址  # noqa: E501
 
         :return: The notify_url of this Candidate.  # noqa: E501
         :rtype: str
@@ -525,6 +560,7 @@ class Candidate(object):
     def notify_url(self, notify_url):
         """Sets the notify_url of this Candidate.
 
+        回调地址  # noqa: E501
 
         :param notify_url: The notify_url of this Candidate.  # noqa: E501
         :type: str

@@ -61,6 +61,7 @@ class MakeOrderRequest(object):
     def company_id(self):
         """Gets the company_id of this MakeOrderRequest.  # noqa: E501
 
+        公司唯一ID  # noqa: E501
 
         :return: The company_id of this MakeOrderRequest.  # noqa: E501
         :rtype: str
@@ -71,6 +72,7 @@ class MakeOrderRequest(object):
     def company_id(self, company_id):
         """Sets the company_id of this MakeOrderRequest.
 
+        公司唯一ID  # noqa: E501
 
         :param company_id: The company_id of this MakeOrderRequest.  # noqa: E501
         :type: str
@@ -82,6 +84,7 @@ class MakeOrderRequest(object):
     def mobile(self):
         """Gets the mobile of this MakeOrderRequest.  # noqa: E501
 
+        用户手机号  # noqa: E501
 
         :return: The mobile of this MakeOrderRequest.  # noqa: E501
         :rtype: str
@@ -92,6 +95,7 @@ class MakeOrderRequest(object):
     def mobile(self, mobile):
         """Sets the mobile of this MakeOrderRequest.
 
+        用户手机号  # noqa: E501
 
         :param mobile: The mobile of this MakeOrderRequest.  # noqa: E501
         :type: str
@@ -103,6 +107,7 @@ class MakeOrderRequest(object):
     def job_id(self):
         """Gets the job_id of this MakeOrderRequest.  # noqa: E501
 
+        职位ID  # noqa: E501
 
         :return: The job_id of this MakeOrderRequest.  # noqa: E501
         :rtype: str
@@ -113,6 +118,7 @@ class MakeOrderRequest(object):
     def job_id(self, job_id):
         """Sets the job_id of this MakeOrderRequest.
 
+        职位ID  # noqa: E501
 
         :param job_id: The job_id of this MakeOrderRequest.  # noqa: E501
         :type: str

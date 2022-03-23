@@ -71,6 +71,7 @@ class Project(object):
     def started_at(self):
         """Gets the started_at of this Project.  # noqa: E501
 
+        开始日期  # noqa: E501
 
         :return: The started_at of this Project.  # noqa: E501
         :rtype: date
@@ -81,6 +82,7 @@ class Project(object):
     def started_at(self, started_at):
         """Sets the started_at of this Project.
 
+        开始日期  # noqa: E501
 
         :param started_at: The started_at of this Project.  # noqa: E501
         :type: date
@@ -92,6 +94,7 @@ class Project(object):
     def ended_at(self):
         """Gets the ended_at of this Project.  # noqa: E501
 
+        结束日期  # noqa: E501
 
         :return: The ended_at of this Project.  # noqa: E501
         :rtype: date
@@ -102,6 +105,7 @@ class Project(object):
     def ended_at(self, ended_at):
         """Sets the ended_at of this Project.
 
+        结束日期  # noqa: E501
 
         :param ended_at: The ended_at of this Project.  # noqa: E501
         :type: date
@@ -113,6 +117,7 @@ class Project(object):
     def name(self):
         """Gets the name of this Project.  # noqa: E501
 
+        项目名称  # noqa: E501
 
         :return: The name of this Project.  # noqa: E501
         :rtype: str
@@ -123,6 +128,7 @@ class Project(object):
     def name(self, name):
         """Sets the name of this Project.
 
+        项目名称  # noqa: E501
 
         :param name: The name of this Project.  # noqa: E501
         :type: str
@@ -134,6 +140,7 @@ class Project(object):
     def org_name(self):
         """Gets the org_name of this Project.  # noqa: E501
 
+        公司名称  # noqa: E501
 
         :return: The org_name of this Project.  # noqa: E501
         :rtype: str
@@ -144,6 +151,7 @@ class Project(object):
     def org_name(self, org_name):
         """Sets the org_name of this Project.
 
+        公司名称  # noqa: E501
 
         :param org_name: The org_name of this Project.  # noqa: E501
         :type: str
@@ -155,6 +163,7 @@ class Project(object):
     def position(self):
         """Gets the position of this Project.  # noqa: E501
 
+        职位  # noqa: E501
 
         :return: The position of this Project.  # noqa: E501
         :rtype: str
@@ -165,6 +174,7 @@ class Project(object):
     def position(self, position):
         """Sets the position of this Project.
 
+        职位  # noqa: E501
 
         :param position: The position of this Project.  # noqa: E501
         :type: str
@@ -176,6 +186,7 @@ class Project(object):
     def description(self):
         """Gets the description of this Project.  # noqa: E501
 
+        项目介绍  # noqa: E501
 
         :return: The description of this Project.  # noqa: E501
         :rtype: str
@@ -186,6 +197,7 @@ class Project(object):
     def description(self, description):
         """Sets the description of this Project.
 
+        项目介绍  # noqa: E501
 
         :param description: The description of this Project.  # noqa: E501
         :type: str

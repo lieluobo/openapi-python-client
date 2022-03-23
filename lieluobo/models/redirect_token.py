@@ -51,6 +51,7 @@ class RedirectToken(object):
     def value(self):
         """Gets the value of this RedirectToken.  # noqa: E501
 
+        值  # noqa: E501
 
         :return: The value of this RedirectToken.  # noqa: E501
         :rtype: str
@@ -61,6 +62,7 @@ class RedirectToken(object):
     def value(self, value):
         """Sets the value of this RedirectToken.
 
+        值  # noqa: E501
 
         :param value: The value of this RedirectToken.  # noqa: E501
         :type: str
@@ -72,6 +74,7 @@ class RedirectToken(object):
     def expired_at(self):
         """Gets the expired_at of this RedirectToken.  # noqa: E501
 
+        过期时间  # noqa: E501
 
         :return: The expired_at of this RedirectToken.  # noqa: E501
         :rtype: datetime
@@ -82,6 +85,7 @@ class RedirectToken(object):
     def expired_at(self, expired_at):
         """Sets the expired_at of this RedirectToken.
 
+        过期时间  # noqa: E501
 
         :param expired_at: The expired_at of this RedirectToken.  # noqa: E501
         :type: datetime

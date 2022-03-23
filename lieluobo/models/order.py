@@ -66,6 +66,7 @@ class Order(object):
     def job_id(self):
         """Gets the job_id of this Order.  # noqa: E501
 
+        职位ID  # noqa: E501
 
         :return: The job_id of this Order.  # noqa: E501
         :rtype: str
@@ -76,6 +77,7 @@ class Order(object):
     def job_id(self, job_id):
         """Sets the job_id of this Order.
 
+        职位ID  # noqa: E501
 
         :param job_id: The job_id of this Order.  # noqa: E501
         :type: str
@@ -87,6 +89,7 @@ class Order(object):
     def resume_id(self):
         """Gets the resume_id of this Order.  # noqa: E501
 
+        简历ID  # noqa: E501
 
         :return: The resume_id of this Order.  # noqa: E501
         :rtype: str
@@ -97,6 +100,7 @@ class Order(object):
     def resume_id(self, resume_id):
         """Sets the resume_id of this Order.
 
+        简历ID  # noqa: E501
 
         :param resume_id: The resume_id of this Order.  # noqa: E501
         :type: str
@@ -108,6 +112,7 @@ class Order(object):
     def order_no(self):
         """Gets the order_no of this Order.  # noqa: E501
 
+        订单号  # noqa: E501
 
         :return: The order_no of this Order.  # noqa: E501
         :rtype: str
@@ -118,6 +123,7 @@ class Order(object):
     def order_no(self, order_no):
         """Sets the order_no of this Order.
 
+        订单号  # noqa: E501
 
         :param order_no: The order_no of this Order.  # noqa: E501
         :type: str
@@ -129,6 +135,7 @@ class Order(object):
     def status(self):
         """Gets the status of this Order.  # noqa: E501
 
+        订单状态  # noqa: E501
 
         :return: The status of this Order.  # noqa: E501
         :rtype: int
@@ -139,6 +146,7 @@ class Order(object):
     def status(self, status):
         """Sets the status of this Order.
 
+        订单状态  # noqa: E501
 
         :param status: The status of this Order.  # noqa: E501
         :type: int
@@ -150,6 +158,7 @@ class Order(object):
     def url(self):
         """Gets the url of this Order.  # noqa: E501
 
+        订单地址  # noqa: E501
 
         :return: The url of this Order.  # noqa: E501
         :rtype: str
@@ -160,6 +169,7 @@ class Order(object):
     def url(self, url):
         """Sets the url of this Order.
 
+        订单地址  # noqa: E501
 
         :param url: The url of this Order.  # noqa: E501
         :type: str

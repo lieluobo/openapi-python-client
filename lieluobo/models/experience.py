@@ -77,6 +77,7 @@ class Experience(object):
     def org_name(self):
         """Gets the org_name of this Experience.  # noqa: E501
 
+        公司名称  # noqa: E501
 
         :return: The org_name of this Experience.  # noqa: E501
         :rtype: str
@@ -87,6 +88,7 @@ class Experience(object):
     def org_name(self, org_name):
         """Sets the org_name of this Experience.
 
+        公司名称  # noqa: E501
 
         :param org_name: The org_name of this Experience.  # noqa: E501
         :type: str
@@ -100,6 +102,7 @@ class Experience(object):
     def dept_name(self):
         """Gets the dept_name of this Experience.  # noqa: E501
 
+        部门名称  # noqa: E501
 
         :return: The dept_name of this Experience.  # noqa: E501
         :rtype: str
@@ -110,6 +113,7 @@ class Experience(object):
     def dept_name(self, dept_name):
         """Sets the dept_name of this Experience.
 
+        部门名称  # noqa: E501
 
         :param dept_name: The dept_name of this Experience.  # noqa: E501
         :type: str
@@ -121,6 +125,7 @@ class Experience(object):
     def started_at(self):
         """Gets the started_at of this Experience.  # noqa: E501
 
+        入职日期  # noqa: E501
 
         :return: The started_at of this Experience.  # noqa: E501
         :rtype: date
@@ -131,6 +136,7 @@ class Experience(object):
     def started_at(self, started_at):
         """Sets the started_at of this Experience.
 
+        入职日期  # noqa: E501
 
         :param started_at: The started_at of this Experience.  # noqa: E501
         :type: date
@@ -144,6 +150,7 @@ class Experience(object):
     def ended_at(self):
         """Gets the ended_at of this Experience.  # noqa: E501
 
+        离职日期  # noqa: E501
 
         :return: The ended_at of this Experience.  # noqa: E501
         :rtype: date
@@ -154,6 +161,7 @@ class Experience(object):
     def ended_at(self, ended_at):
         """Sets the ended_at of this Experience.
 
+        离职日期  # noqa: E501
 
         :param ended_at: The ended_at of this Experience.  # noqa: E501
         :type: date
@@ -165,6 +173,7 @@ class Experience(object):
     def position(self):
         """Gets the position of this Experience.  # noqa: E501
 
+        职位  # noqa: E501
 
         :return: The position of this Experience.  # noqa: E501
         :rtype: str
@@ -175,6 +184,7 @@ class Experience(object):
     def position(self, position):
         """Sets the position of this Experience.
 
+        职位  # noqa: E501
 
         :param position: The position of this Experience.  # noqa: E501
         :type: str
@@ -188,6 +198,7 @@ class Experience(object):
     def description(self):
         """Gets the description of this Experience.  # noqa: E501
 
+        工作内容  # noqa: E501
 
         :return: The description of this Experience.  # noqa: E501
         :rtype: str
@@ -198,6 +209,7 @@ class Experience(object):
     def description(self, description):
         """Sets the description of this Experience.
 
+        工作内容  # noqa: E501
 
         :param description: The description of this Experience.  # noqa: E501
         :type: str
@@ -211,6 +223,7 @@ class Experience(object):
     def level(self):
         """Gets the level of this Experience.  # noqa: E501
 
+        职级  # noqa: E501
 
         :return: The level of this Experience.  # noqa: E501
         :rtype: str
@@ -221,6 +234,7 @@ class Experience(object):
     def level(self, level):
         """Sets the level of this Experience.
 
+        职级  # noqa: E501
 
         :param level: The level of this Experience.  # noqa: E501
         :type: str
@@ -232,6 +246,7 @@ class Experience(object):
     def in_service(self):
         """Gets the in_service of this Experience.  # noqa: E501
 
+        是否在职  # noqa: E501
 
         :return: The in_service of this Experience.  # noqa: E501
         :rtype: bool
@@ -242,6 +257,7 @@ class Experience(object):
     def in_service(self, in_service):
         """Sets the in_service of this Experience.
 
+        是否在职  # noqa: E501
 
         :param in_service: The in_service of this Experience.  # noqa: E501
         :type: bool

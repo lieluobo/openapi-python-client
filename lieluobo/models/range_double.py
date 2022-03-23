@@ -51,6 +51,7 @@ class RangeDouble(object):
     def lower(self):
         """Gets the lower of this RangeDouble.  # noqa: E501
 
+        下界  # noqa: E501
 
         :return: The lower of this RangeDouble.  # noqa: E501
         :rtype: float
@@ -61,6 +62,7 @@ class RangeDouble(object):
     def lower(self, lower):
         """Sets the lower of this RangeDouble.
 
+        下界  # noqa: E501
 
         :param lower: The lower of this RangeDouble.  # noqa: E501
         :type: float
@@ -72,6 +74,7 @@ class RangeDouble(object):
     def upper(self):
         """Gets the upper of this RangeDouble.  # noqa: E501
 
+        上界  # noqa: E501
 
         :return: The upper of this RangeDouble.  # noqa: E501
         :rtype: float
@@ -82,6 +85,7 @@ class RangeDouble(object):
     def upper(self, upper):
         """Sets the upper of this RangeDouble.
 
+        上界  # noqa: E501
 
         :param upper: The upper of this RangeDouble.  # noqa: E501
         :type: float
