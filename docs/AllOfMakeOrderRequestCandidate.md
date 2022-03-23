@@ -1,6 +1,6 @@
-# AllOfJobGrade
+# AllOfMakeOrderRequestCandidate
 
-Reference to [**Grade**](Grade.md)
+Reference to [**Candidate**](Candidate.md)
 
 
 ## Properties

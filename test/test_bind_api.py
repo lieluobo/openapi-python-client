@@ -32,7 +32,7 @@ class TestBindApi(unittest.TestCase):
         self.secret_id = '8f7d34289a81497a852f1691487a1967'
         self.secret_key = 'IYM28RgoqRc5XLmmamH7JFLU6AxWwvs0'
 
-        self.company_id = 'leicptih5gop0'
+        self.company_id = 'kfjdosjg4hpo1'
 
     def tearDown(self):
         pass
@@ -49,10 +49,10 @@ class TestBindApi(unittest.TestCase):
     # 绑定公司
     def test_bind_company(self):
         company = Company(unique_id=self.company_id,
-                          name='来自谷露的公司2',
+                          name='来自谷露的公司3',
                           license_no='91310000093856237U',
                           contact_name='某小弟',
-                          contact_mobile='18662203613',
+                          contact_mobile='18662203623',
                           notify_url='https://callback.xxx.com/company')
         resp = self.api.bind_company(body=company)
         self.assertEqual(resp.unique_id, company.unique_id)

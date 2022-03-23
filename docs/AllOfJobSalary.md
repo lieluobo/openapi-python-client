@@ -1,5 +1,8 @@
 # AllOfJobSalary
 
+Reference to [**RangeDouble**](RangeDouble.md)
+
+
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------

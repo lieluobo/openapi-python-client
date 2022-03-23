@@ -1,5 +1,8 @@
 # AllOfCompanyOrderState
 
+Reference to [**OrderState**](OrderState.md)
+
+
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------

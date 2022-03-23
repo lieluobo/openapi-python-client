@@ -123,6 +123,8 @@ Class | Method | HTTP request | Description
 *CredentialApi* | [**grant**](docs/CredentialApi.md#grant) | **PUT** /credential/grant | 
 *CredentialApi* | [**list**](docs/CredentialApi.md#list) | **GET** /credential | 
 *CredentialApi* | [**revoke**](docs/CredentialApi.md#revoke) | **PUT** /credential/revoke | 
+*OrderApi* | [**get**](docs/OrderApi.md#get) | **GET** /order | 
+*OrderApi* | [**make**](docs/OrderApi.md#make) | **POST** /order | 
 *RecommendApi* | [**authorize**](docs/RecommendApi.md#authorize) | **POST** /recommend/authorize | 
 *RecommendApi* | [**get_recommend_jobs**](docs/RecommendApi.md#get_recommend_jobs) | **GET** /recommend/job/{uniqueId} | 
 *RedirectApi* | [**get_token**](docs/RedirectApi.md#get_token) | **GET** /redirect/token | 
@@ -134,6 +136,7 @@ Class | Method | HTTP request | Description
  - [AllOfEducationDegree](docs/AllOfEducationDegree.md)
  - [AllOfJobGrade](docs/AllOfJobGrade.md)
  - [AllOfJobSalary](docs/AllOfJobSalary.md)
+ - [AllOfMakeOrderRequestCandidate](docs/AllOfMakeOrderRequestCandidate.md)
  - [AllOfUserState](docs/AllOfUserState.md)
  - [BindState](docs/BindState.md)
  - [Candidate](docs/Candidate.md)
@@ -145,6 +148,8 @@ Class | Method | HTTP request | Description
  - [Gender](docs/Gender.md)
  - [Grade](docs/Grade.md)
  - [Job](docs/Job.md)
+ - [MakeOrderRequest](docs/MakeOrderRequest.md)
+ - [Order](docs/Order.md)
  - [OrderState](docs/OrderState.md)
  - [Project](docs/Project.md)
  - [RangeDouble](docs/RangeDouble.md)

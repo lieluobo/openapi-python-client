@@ -1,5 +1,8 @@
 # AllOfUserState
 
+Reference to [**BindState**](BindState.md)
+
+
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------

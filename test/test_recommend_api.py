@@ -48,9 +48,9 @@ class TestRecommendApi(unittest.TestCase):
             unique_id='leicptih5gop0',
             notify_url='https://callback.xxx.com/candidate',
             location='上海',
-            industries=['互联网/软件/服务'],
+            intended_industries=['互联网/软件/服务'],
             gender=Gender.MALE,
-            birthday='1984-01-01',
+            birthday='1984-01-02',
             salary=455000,
             experiences=[
                 Experience(

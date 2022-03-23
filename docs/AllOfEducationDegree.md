@@ -1,5 +1,8 @@
 # AllOfEducationDegree
 
+Reference to [**Degree**](Degree.md)
+
+
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------

@@ -17,6 +17,7 @@ from __future__ import absolute_import
 # import apis into sdk package
 from lieluobo.api.bind_api import BindApi
 from lieluobo.api.credential_api import CredentialApi
+from lieluobo.api.order_api import OrderApi
 from lieluobo.api.recommend_api import RecommendApi
 from lieluobo.api.redirect_api import RedirectApi
 # import ApiClient
@@ -28,6 +29,7 @@ from lieluobo.models.all_of_company_state import AllOfCompanyState
 from lieluobo.models.all_of_education_degree import AllOfEducationDegree
 from lieluobo.models.all_of_job_grade import AllOfJobGrade
 from lieluobo.models.all_of_job_salary import AllOfJobSalary
+from lieluobo.models.all_of_make_order_request_candidate import AllOfMakeOrderRequestCandidate
 from lieluobo.models.all_of_user_state import AllOfUserState
 from lieluobo.models.bind_state import BindState
 from lieluobo.models.candidate import Candidate
@@ -39,6 +41,8 @@ from lieluobo.models.experience import Experience
 from lieluobo.models.gender import Gender
 from lieluobo.models.grade import Grade
 from lieluobo.models.job import Job
+from lieluobo.models.make_order_request import MakeOrderRequest
+from lieluobo.models.order import Order
 from lieluobo.models.order_state import OrderState
 from lieluobo.models.project import Project
 from lieluobo.models.range_double import RangeDouble
