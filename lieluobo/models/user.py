@@ -32,7 +32,8 @@ class User(object):
         'name': 'str',
         'company_id': 'str',
         'state': 'AllOfUserState',
-        'notify_url': 'str'
+        'notify_url': 'str',
+        'fail_reason': 'str'
     }
 
     attribute_map = {
@@ -40,16 +41,18 @@ class User(object):
         'name': 'name',
         'company_id': 'companyId',
         'state': 'state',
-        'notify_url': 'notifyUrl'
+        'notify_url': 'notifyUrl',
+        'fail_reason': 'failReason'
     }
 
-    def __init__(self, mobile=None, name=None, company_id=None, state=None, notify_url=None):  # noqa: E501
+    def __init__(self, mobile=None, name=None, company_id=None, state=None, notify_url=None, fail_reason=None):  # noqa: E501
         """User - a model defined in Swagger"""  # noqa: E501
         self._mobile = None
         self._name = None
         self._company_id = None
         self._state = None
         self._notify_url = None
+        self._fail_reason = None
         self.discriminator = None
         self.mobile = mobile
         if name is not None:
@@ -59,6 +62,8 @@ class User(object):
             self.state = state
         if notify_url is not None:
             self.notify_url = notify_url
+        if fail_reason is not None:
+            self.fail_reason = fail_reason
 
     @property
     def mobile(self):
@@ -176,6 +181,29 @@ class User(object):
         """
 
         self._notify_url = notify_url
+
+    @property
+    def fail_reason(self):
+        """Gets the fail_reason of this User.  # noqa: E501
+
+        失败原因  # noqa: E501
+
+        :return: The fail_reason of this User.  # noqa: E501
+        :rtype: str
+        """
+        return self._fail_reason
+
+    @fail_reason.setter
+    def fail_reason(self, fail_reason):
+        """Sets the fail_reason of this User.
+
+        失败原因  # noqa: E501
+
+        :param fail_reason: The fail_reason of this User.  # noqa: E501
+        :type: str
+        """
+
+        self._fail_reason = fail_reason
 
     def to_dict(self):
         """Returns the model properties as a dict"""

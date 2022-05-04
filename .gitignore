@@ -72,3 +72,4 @@ git_push.sh
 .travis.yml
 .DS_Store
 benchmark
+.sdkmanrc

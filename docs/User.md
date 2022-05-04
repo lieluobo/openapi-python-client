@@ -8,6 +8,7 @@ Name | Type | Description | Notes
 **company_id** | **str** | 公司唯一ID | 
 **state** | [**AllOfUserState**](AllOfUserState.md) |  | [optional] 
 **notify_url** | **str** | 回调地址 | [optional] 
+**fail_reason** | **str** | 失败原因 | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
