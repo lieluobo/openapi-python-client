@@ -111,6 +111,7 @@ class Job(object):
     def id(self):
         """Gets the id of this Job.  # noqa: E501
 
+        唯一ID  # noqa: E501
 
         :return: The id of this Job.  # noqa: E501
         :rtype: str
@@ -121,6 +122,7 @@ class Job(object):
     def id(self, id):
         """Sets the id of this Job.
 
+        唯一ID  # noqa: E501
 
         :param id: The id of this Job.  # noqa: E501
         :type: str
@@ -132,6 +134,7 @@ class Job(object):
     def title(self):
         """Gets the title of this Job.  # noqa: E501
 
+        职位名称  # noqa: E501
 
         :return: The title of this Job.  # noqa: E501
         :rtype: str
@@ -142,6 +145,7 @@ class Job(object):
     def title(self, title):
         """Sets the title of this Job.
 
+        职位名称  # noqa: E501
 
         :param title: The title of this Job.  # noqa: E501
         :type: str
@@ -153,6 +157,7 @@ class Job(object):
     def title_extend(self):
         """Gets the title_extend of this Job.  # noqa: E501
 
+        职位扩展名  # noqa: E501
 
         :return: The title_extend of this Job.  # noqa: E501
         :rtype: str
@@ -163,6 +168,7 @@ class Job(object):
     def title_extend(self, title_extend):
         """Sets the title_extend of this Job.
 
+        职位扩展名  # noqa: E501
 
         :param title_extend: The title_extend of this Job.  # noqa: E501
         :type: str
@@ -195,6 +201,7 @@ class Job(object):
     def address(self):
         """Gets the address of this Job.  # noqa: E501
 
+        工作地点  # noqa: E501
 
         :return: The address of this Job.  # noqa: E501
         :rtype: str
@@ -205,6 +212,7 @@ class Job(object):
     def address(self, address):
         """Sets the address of this Job.
 
+        工作地点  # noqa: E501
 
         :param address: The address of this Job.  # noqa: E501
         :type: str
@@ -216,6 +224,7 @@ class Job(object):
     def required_degree(self):
         """Gets the required_degree of this Job.  # noqa: E501
 
+        最低学历  # noqa: E501
 
         :return: The required_degree of this Job.  # noqa: E501
         :rtype: str
@@ -226,6 +235,7 @@ class Job(object):
     def required_degree(self, required_degree):
         """Sets the required_degree of this Job.
 
+        最低学历  # noqa: E501
 
         :param required_degree: The required_degree of this Job.  # noqa: E501
         :type: str
@@ -237,6 +247,7 @@ class Job(object):
     def headcount(self):
         """Gets the headcount of this Job.  # noqa: E501
 
+        招聘人数  # noqa: E501
 
         :return: The headcount of this Job.  # noqa: E501
         :rtype: int
@@ -247,6 +258,7 @@ class Job(object):
     def headcount(self, headcount):
         """Sets the headcount of this Job.
 
+        招聘人数  # noqa: E501
 
         :param headcount: The headcount of this Job.  # noqa: E501
         :type: int
@@ -279,6 +291,7 @@ class Job(object):
     def fast_pay(self):
         """Gets the fast_pay of this Job.  # noqa: E501
 
+        是否极速付  # noqa: E501
 
         :return: The fast_pay of this Job.  # noqa: E501
         :rtype: bool
@@ -289,6 +302,7 @@ class Job(object):
     def fast_pay(self, fast_pay):
         """Sets the fast_pay of this Job.
 
+        是否极速付  # noqa: E501
 
         :param fast_pay: The fast_pay of this Job.  # noqa: E501
         :type: bool
@@ -300,6 +314,7 @@ class Job(object):
     def brokerage(self):
         """Gets the brokerage of this Job.  # noqa: E501
 
+        费率：预计佣金  # noqa: E501
 
         :return: The brokerage of this Job.  # noqa: E501
         :rtype: float
@@ -310,6 +325,7 @@ class Job(object):
     def brokerage(self, brokerage):
         """Sets the brokerage of this Job.
 
+        费率：预计佣金  # noqa: E501
 
         :param brokerage: The brokerage of this Job.  # noqa: E501
         :type: float
@@ -321,6 +337,7 @@ class Job(object):
     def warranty(self):
         """Gets the warranty of this Job.  # noqa: E501
 
+        最短保证期  # noqa: E501
 
         :return: The warranty of this Job.  # noqa: E501
         :rtype: str
@@ -331,6 +348,7 @@ class Job(object):
     def warranty(self, warranty):
         """Sets the warranty of this Job.
 
+        最短保证期  # noqa: E501
 
         :param warranty: The warranty of this Job.  # noqa: E501
         :type: str
@@ -342,6 +360,7 @@ class Job(object):
     def created_at(self):
         """Gets the created_at of this Job.  # noqa: E501
 
+        职位发布时间  # noqa: E501
 
         :return: The created_at of this Job.  # noqa: E501
         :rtype: datetime
@@ -352,6 +371,7 @@ class Job(object):
     def created_at(self, created_at):
         """Sets the created_at of this Job.
 
+        职位发布时间  # noqa: E501
 
         :param created_at: The created_at of this Job.  # noqa: E501
         :type: datetime
@@ -363,6 +383,7 @@ class Job(object):
     def updated_at(self):
         """Gets the updated_at of this Job.  # noqa: E501
 
+        职位更新时间  # noqa: E501
 
         :return: The updated_at of this Job.  # noqa: E501
         :rtype: datetime
@@ -373,6 +394,7 @@ class Job(object):
     def updated_at(self, updated_at):
         """Sets the updated_at of this Job.
 
+        职位更新时间  # noqa: E501
 
         :param updated_at: The updated_at of this Job.  # noqa: E501
         :type: datetime
@@ -384,6 +406,7 @@ class Job(object):
     def url(self):
         """Gets the url of this Job.  # noqa: E501
 
+        跳转地址  # noqa: E501
 
         :return: The url of this Job.  # noqa: E501
         :rtype: str
@@ -394,6 +417,7 @@ class Job(object):
     def url(self, url):
         """Sets the url of this Job.
 
+        跳转地址  # noqa: E501
 
         :param url: The url of this Job.  # noqa: E501
         :type: str
